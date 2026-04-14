@@ -20,7 +20,7 @@ jobs:
           organization: 'testing_redocly'
           project: 'onboarding-yurii'
           mountPath: '/products/apiHub/CICD'
-          files: 'Get_started_with_the_Learning_API.md, Learning_OpenAPI.yaml'
+          files: 'Get_started_with_the_Learning_API.md Learning_OpenAPI.yaml'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
