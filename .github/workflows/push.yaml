@@ -18,6 +18,7 @@ jobs:
         uses: redocly/reunite-push-action@v1
         with:
           organization: 'testing_redocly'
+          defaultBranch: 'main'
           project: 'onboarding-yurii'
           mountPath: '/products/apiHub/CICD'
           files: 'Get_started_with_the_Learning_API.md'
