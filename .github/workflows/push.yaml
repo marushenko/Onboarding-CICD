@@ -21,7 +21,8 @@ jobs:
           defaultBranch: 'main'
           project: 'onboarding-yurii'
           mountPath: '/products/apiHub/CICD'
-          files: 'Get_started_with_the_Learning_API.md'
+          files: 
+            -'Get_started_with_the_Learning_API.md'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
